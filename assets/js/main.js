@@ -77,7 +77,7 @@
   document.querySelectorAll('a[href="APP_STORE_URL"]').forEach((a) => {
     a.addEventListener('click', (e) => {
       e.preventDefault();
-      showToast('Set your live Mac App Store URL with scripts/configure.sh before publishing.');
+      showToast('Desktag is coming soon to the Mac App Store.');
     });
   });
 
