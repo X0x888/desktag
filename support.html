@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Desktag</title>
+<meta name="description" content="Answers about Desktag: why desktops say “not found yet” after a restart, Find Desktops, direct switching, transitions, edge hiding, moving windows, Spatial and No-Boundary Canvas, agents at work, Focus Filters, Shortcuts, AppleScript, purchases and uninstalling.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="SITE_URL/support.html">
+<meta property="og:title" content="Support — Desktag">
+<meta property="og:description" content="Answers about Desktag: Find Desktops, direct switching, edge hiding, agents at work, Canvas layouts, Private Mode, Focus Filters, Shortcuts and AppleScript.">
+<meta property="og:image" content="SITE_URL/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="SITE_URL/support.html">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/icon.png" alt="" width="32" height="32">
+      <span>Desktag</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Primary" data-site-nav>
+      <ul>
+        <li><a href="index.html#features">Features</a></li>
+        <li><a href="index.html#how">How it works</a></li>
+        <li><a href="index.html#pro">Free &amp; Pro</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+        <li><a href="support.html" aria-current="page">Support</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button type="button" class="icon-btn" data-theme-toggle aria-label="Switch appearance"></button>
+      <a class="btn btn-primary btn-sm header-cta" href="APP_STORE_URL">Mac App Store</a>
+      <button type="button" class="icon-btn nav-toggle" data-nav-toggle aria-expanded="false" aria-label="Toggle menu">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="doc-hero">
+    <div class="wrap">
+      <div class="eyebrow-row">
+        <span class="eyebrow">Documentation &amp; Troubleshooting</span>
+      </div>
+      <h1>Support</h1>
+      <p class="doc-lede">Most questions about Desktag come from one fact: macOS doesn’t tell apps which desktops you have, so Desktag has to meet them. The answers below start there. If yours isn’t here, write to <a href="mailto:SUPPORT_EMAIL">SUPPORT_EMAIL</a>.</p>
+
+      <div class="support-filter-box">
+        <label class="sr-only" for="support-filter">Filter support topics</label>
+        <input id="support-filter" type="search" class="support-filter-input" data-support-filter placeholder="Filter topics (e.g. Accessibility, Canvas, agents, refunds)…" autocomplete="off">
+        <p class="support-filter-status" data-support-status>Showing all 26 topics.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap doc-layout">
+    <aside class="doc-sidebar" aria-labelledby="toc-title">
+      <h2 id="toc-title">On this page</h2>
+      <ol>
+        <li><a href="#not-found">Why does a desktop say “not found yet”?</a></li>
+        <li><a href="#find-desktops">What does Find Desktops do?</a></li>
+        <li><a href="#accessibility">Why does Desktag ask for Accessibility?</a></li>
+        <li><a href="#no-switch">Clicking a desktop doesn’t switch</a></li>
+        <li><a href="#instant">Switching slides instead of being instant</a></li>
+        <li><a href="#transitions">Custom switch transitions</a></li>
+        <li><a href="#windows">Moving windows between desktops</a></li>
+        <li><a href="#folders">Where do automatic names come from?</a></li>
+        <li><a href="#agents">Agents at work</a></li>
+        <li><a href="#titles">Why would I allow Screen Recording?</a></li>
+        <li><a href="#sharing">Screen sharing &amp; Private Mode</a></li>
+        <li><a href="#cards">Hover cards</a></li>
+        <li><a href="#edge-hiding">Edge hiding, stepping aside &amp; done banners</a></li>
+        <li><a href="#canvas">Spatial Canvas &amp; No-Boundary Canvas</a></li>
+        <li><a href="#automation">Links, Shortcuts, Spotlight, Focus &amp; AppleScript</a></li>
+        <li><a href="#rearrange">My desktops keep changing order</a></li>
+        <li><a href="#wrong-label">A label is on the wrong desktop</a></li>
+        <li><a href="#full-screen">Full-screen apps</a></li>
+        <li><a href="#displays">More than one display</a></li>
+        <li><a href="#where">Where is Desktag? There’s no Dock icon</a></li>
+        <li><a href="#earlier">Putting back an earlier day’s labels</a></li>
+        <li><a href="#trial">What happens when the trial ends?</a></li>
+        <li><a href="#restore">Restoring a purchase</a></li>
+        <li><a href="#refunds">Refunds</a></li>
+        <li><a href="#uninstall">Uninstalling &amp; where your data is</a></li>
+        <li><a href="#contact">Contact &amp; Copy Diagnostics</a></li>
+      </ol>
+    </aside>
+
+    <div class="prose">
+
+      <section class="prose-section" id="not-found" data-support-item>
+        <h2>Why does a desktop say “not found yet”?</h2>
+        <p>Desktag knows a desktop through a tiny invisible window it keeps there. Those windows close when Desktag quits. The sticker still lists every desktop Desktag knows, in Mission Control’s order.</p>
+        <ul>
+          <li><strong>When Desktag itself restarts</strong> (an update, a quit, a crash), nothing is lost: until you log out, the windows on each desktop keep their numbers, so Desktag knows what’s on every desktop it had met and shows its folders, apps and agents straight away. Click any of them and, with instant switching on, Desktag counts its way there; it recognises the desktop as you arrive.</li>
+          <li><strong>After your Mac restarts</strong>, desktops not yet visited show dimmed until matched. With Accessibility on, Desktag syncs automatically when idle (when Screen Recording is allowed so the screen stays completely still) or directly the moment you click any desktop — finding it and landing straight there in one step.</li>
+        </ul>
+        <p>macOS gives apps no public list of desktops, so a desktop Desktag has never been to can’t be shown until it has: visit it once, or choose Find Desktops.</p>
+        <p>To find desktops again:</p>
+        <ul>
+          <li><strong>Just click any desktop (with Accessibility on).</strong> Desktag quietly syncs in the background and lands directly on the desktop you clicked — no manual prompt needed.</li>
+          <li><strong>Visit them.</strong> When you land on a desktop, Desktag compares the windows on it with what it saw before. If Desktag only quit and reopened, the same windows are still there, and it recognises at once any desktop that has a window of its own. After the Mac itself restarts, it needs at least two windows back in the places they were, so a desktop with a single window won’t be recognised this way. An empty desktop never is. If the windows hadn’t opened yet when Desktag first looked, as happens at login, it looks again once they have.</li>
+          <li><strong>Choose Find Desktops</strong> manually whenever you want to re-sync all desktops in one go. “Sync desktops after restart” is on by default in Settings › General.</li>
+        </ul>
+        <p>It helps to keep Desktag running: turn on “Open Desktag at login” in Settings › General.</p>
+      </section>
+
+      <section class="prose-section" id="find-desktops" data-support-item>
+        <h2>What does Find Desktops do?</h2>
+        <p>It walks through every desktop in Mission Control order — checking left first, then right — and lands directly on your destination (or back where you started). With Screen Recording allowed during automatic syncs, Desktag holds a momentary in-memory frame of your current desktop so the sync stays still on screen, then blends directly into your destination. Without Screen Recording, manual scans step behind a calm frosted screen with a Stop button visible the whole time.</p>
+        <p>On the way it places its marker on each desktop and learns the order of the row. Labels that hadn’t been found are matched first by the windows on their desktops, and then by their place in the row as Find Desktops last saw it. Where the row has changed since, with desktops added, removed or moved, Desktag doesn’t guess. A label it can’t place is not deleted: it waits under “Labels without a desktop” in Settings › Desktops, where you can move it onto the desktop you’re on. When you start Find Desktops yourself, the sticker is put in Mission Control’s order.</p>
+        <p>Find Desktops is in the menu bar menu and in Settings › Desktops. Automatic syncing after a restart can be toggled in Settings › General › Sync desktops after restart.</p>
+        <h3>If it doesn’t find them all</h3>
+        <ul>
+          <li>Check that “Move left a space” and “Move right a space” are on, and set to <kbd>⌃←</kbd> and <kbd>⌃→</kbd>, in System Settings › Keyboard › Keyboard Shortcuts › Mission Control. Find Desktops presses exactly those keys when it can’t swipe.</li>
+          <li>Start it from an ordinary desktop, not from a full-screen app.</li>
+          <li>Labels go back by position only if Find Desktops has run before: it is how Desktag knows the order of the row. Run it once after naming your desktops, and see <a href="#rearrange">My desktops keep changing order</a>.</li>
+        </ul>
+      </section>
+
+      <section class="prose-section" id="accessibility" data-support-item>
+        <h2>Why does Desktag ask for Accessibility access?</h2>
+        <p>Because macOS requires that permission before one app may post input on your behalf, and four things in Desktag do: Find Desktops, instant switching, sending a window to another desktop, and bringing the window you pick in a card to the front.</p>
+        <ul>
+          <li><strong>When it asks:</strong> only when you choose one of those, or in Settings › Permissions. Never at launch.</li>
+          <li><strong>How:</strong> the first time, macOS shows its own request; choose Open System Settings. Desktag then shows a small guide beside System Settings: the switch to turn on, Desktag’s icon to drag into the list if it isn’t there, and whether it’s on yet. Once it is, the guide says so and closes, Desktag brings you back to where you asked, and whatever you were doing carries on, such as Find Desktops.</li>
+          <li><strong>What it does with it:</strong> posts the trackpad’s swipe between desktops, to switch at once and to walk your desktops; presses <kbd>⌃→</kbd> and <kbd>⌃←</kbd> where a swipe can’t be used; presses on a window’s title bar, holds it while it switches, and lets go, to carry the window to another desktop; and clicks a window’s title bar to bring it to the front.</li>
+          <li><strong>What it doesn’t do:</strong> read your screen, what you type or anything in other apps. macOS’s App Sandbox doesn’t let it.</li>
+          <li><strong>If you say no:</strong> everything else works. Switching slides, Desktag meets and recognises desktops as you visit them, and a window you hold over a desktop in the sticker still goes there with you.</li>
+        </ul>
+        <p>Settings › Permissions shows what Desktag has been allowed, what each permission is for, and the button to change it. You can turn any of them off again in System Settings › Privacy &amp; Security.</p>
+        <h3>Desktag is on in the list, but it still asks</h3>
+        <p>The switch is for an older copy of Desktag. In System Settings › Privacy &amp; Security › Accessibility, select Desktag, click −, then drag Desktag back in from your Applications folder or from the icon in Desktag’s guide.</p>
+      </section>
+
+      <section class="prose-section" id="no-switch" data-support-item>
+        <h2>Clicking a desktop doesn’t switch</h2>
+        <p>First check the tag isn’t dimmed. If it is, Desktag <a href="#not-found">hasn’t found that desktop yet</a>.</p>
+        <p>Otherwise, check one macOS setting. Without instant switching, Desktag switches by bringing its marker on that desktop to the front, and macOS follows only when this is on:</p>
+        <p>System Settings › Desktop &amp; Dock › Mission Control › <strong>When switching to an application, switch to a Space with open windows for the application</strong></p>
+        <p>It’s on unless someone turned it off. Desktag’s Settings › General shows whether it is on and, when it’s off, a button that opens Desktop &amp; Dock. The switch itself is macOS’s own slide between desktops.</p>
+      </section>
+
+      <section class="prose-section" id="instant" data-support-item>
+        <h2>Switching slides instead of being instant</h2>
+        <p>Instant switching swipes across as many places in Mission Control’s row as the desktop is away, so it needs three things: the Accessibility permission, the order of your desktops (which Find Desktops learns), and one display (or “Displays have separate Spaces” off). It’s in Settings › General › Switch instantly, which says what’s missing. A switch made while you hold the mouse button down, with a window in hand, always slides: macOS ignores a swipe then. If macOS ignores Desktag’s swipes twice, Desktag says so and slides until it next opens.</p>
+      </section>
+
+      <section class="prose-section" id="transitions" data-support-item>
+        <h2>Custom switch transitions</h2>
+        <p>With Pro (and live-previewable on Free in Settings), Desktag offers eight direct two-desktop transitions: <strong>Dissolve</strong>, <strong>Focus</strong>, <strong>Push</strong>, <strong>Glide</strong>, <strong>Wipe</strong>, <strong>Depth</strong>, <strong>Zoom</strong> and <strong>Iris</strong>, each with <strong>Snappy</strong>, <strong>Balanced</strong> and <strong>Gentle</strong> pace.</p>
+        <p>Transitions run during instant switching and use optional Screen Recording to capture an ephemeral in-memory frame via ScreenCaptureKit so the old desktop blends directly into the new one without flashing intermediate spaces. Clicks pass straight through to the destination desktop immediately, no frame is ever written to disk, and macOS Reduce Motion automatically replaces moving transitions with a stationary dissolve.</p>
+      </section>
+
+      <section class="prose-section" id="windows" data-support-item>
+        <h2>Moving windows between desktops</h2>
+        <ul>
+          <li><strong>With the sticker:</strong> drag a window by its title bar onto a desktop in the sticker. Its tag lights up. Let go, and the window goes there, in the same place on screen, while you stay (needs Accessibility). Hold it there for a moment instead, and you go along with it (no permission needed).</li>
+          <li><strong>The window in front:</strong> right-click a desktop’s tag and choose Move … Window to …, use Move … Window To in the menu bar (hold <kbd>⌥</kbd> to go along), or press <kbd>⌘↩</kbd> in the switcher (<kbd>⌥⌘↩</kbd> goes along).</li>
+          <li><strong>With a shortcut:</strong> hold a window by its title bar and press a desktop’s own shortcut, or Back.</li>
+        </ul>
+        <p>Desktag can’t see other apps’ title bars, so it holds an app’s windows where you last dragged one of them. If it says it couldn’t take hold of a window, drag one of that app’s windows by its title bar once, and try again. Full-screen windows stay with their app. Turn the sticker’s drag-and-drop off in Settings › General › Move windows with the sticker.</p>
+      </section>
+
+      <section class="prose-section" id="folders" data-support-item>
+        <h2>Where do automatic names come from?</h2>
+        <p>On Free, an unnamed desktop automatically shows the apps open on it (for example “Safari · Notes” or “Terminal · Finder +1”). With Pro, an unnamed desktop is named after what’s open on it, most telling first: the folder a terminal or an editor works in, then the folder a Finder window shows, then what an agent works on, then the page or document in a window, then the other apps. Duplicate folder names are disambiguated automatically. Finder’s folders, agents’ tasks and pages come from window titles (see <a href="#titles">Why would I allow Screen Recording?</a>). Beside a folder or a page, an app that says no more than its name shows as its icon. Two at most are shown, with “+2” for the rest, and “×2” for two windows in one folder. System Settings and other utilities never name a desktop that has work on it. Your own names always win. Turn folder naming off in Settings › General › Name desktops after their folders.</p>
+        <p>Desktag reads a terminal’s folder from the shell running in it, which macOS lets any app see for your own programs. Which desktop a terminal is on, it learns by seeing its window there: as you visit, or on Find Desktops’ walk. Which window shows which tab, it learns as you work in one: a tab you open, or a command, a <code>cd</code> or an agent’s prompt you type into it (Desktag asks macOS how long ago a key was pressed, never which key). Tabs already open when Desktag started are placed by the order their windows opened in; where that can’t be told, as when a terminal restores all its windows at login, they wait until you work in them.</p>
+      </section>
+
+      <section class="prose-section" id="agents" data-support-item>
+        <h2>Agents at work</h2>
+        <p>While a coding agent (Claude Code, Codex, Gemini CLI, Cursor, Aider, opencode, Amp, Goose, Qwen Code, Droid, GitHub Copilot, Crush or Auggie) or any long command such as a build or test run works on a desktop, a light runs under that desktop’s name in the sticker and switcher. When the work stops while you’re on another desktop — finished, failed, or waiting for your answer — a colour-coded badge marks the desktop until you go there, and the menu bar icon shows a dot; its menu lists what stopped first.</p>
+        <p>Going there from the sticker, the menu, a hidden-edge done banner, the switcher or the global <strong>Go to Waiting Work</strong> shortcut brings the agent’s window forward and rings it, and the arrival card says which agent stopped, on what, and when. To receive macOS notifications too, turn on Settings › General › Notify me when work stops out of sight: macOS asks you once, and notifications never fire for the desktop you’re already on. A non-agent command earns a dot only after 20 seconds of work, so a quick <code>git pull</code> isn’t news. Agents at work are part of Pro; turn them off in Settings › General.</p>
+        <p>Desktag tells work from waiting by how busy the program keeps your Mac: an agent animating its spinner wakes many times a second, while one waiting for you stays quiet. It never reads what a terminal shows. With Screen Recording allowed, an agent’s terminal title adds what it’s working on and whether it needs your answer.</p>
+        <h3>If an agent’s work doesn’t show</h3>
+        <ul>
+          <li>Desktag knows which desktop the agent’s window is on once it has seen it there. Visit that desktop once, or choose Find Desktops.</li>
+          <li>An agent already running when Desktag started is placed by the order its terminal’s windows opened in. Where that can’t be told, it’s placed once you give it a prompt, or once its folder is open in Finder or an editor on that desktop.</li>
+          <li>Sessions inside tmux belong to the tmux server, not to your terminal, and show only through the pane running tmux. Cursor’s in-editor agent keeps its transcripts in your home folder, which the sandbox keeps Desktag out of; commands in Cursor’s terminals show like any others.</li>
+        </ul>
+      </section>
+
+      <section class="prose-section" id="titles" data-support-item>
+        <h2>Why would I allow Screen Recording?</h2>
+        <p>It’s optional, and Desktag works without it. macOS only gives an app other windows’ titles if it may record the screen, so that permission is how Desktag reads titles — naming Finder’s folders, editors’ projects and the page or document in each window (“Inbox - Gmail” rather than “Google Chrome”), and showing what agents say they’re doing. When switch transitions are turned on — or during silent restart syncs — Desktag also uses it to take a momentary in-memory frame so transitions blend directly between two desktops. Neither window titles nor transition frames are ever stored or written to disk. macOS Sequoia and later may show a monthly reminder asking you to keep Screen Recording allowed for Desktag — this is normal macOS behaviour for any app using that permission. Allow or revoke it in System Settings › Privacy &amp; Security › Screen &amp; System Audio Recording.</p>
+      </section>
+
+      <section class="prose-section" id="sharing" data-support-item>
+        <h2>Screen sharing &amp; Private Mode</h2>
+        <p>Cards, the switcher, the label editor, Settings, notices, the sticker and its edge stripes can show your notes or desktop names. While “Hide panels from screen sharing” is on (Settings › General), Desktag asks macOS to leave those panels out of screenshots and screen sharing. Most apps, video calls included, honour that request. Some recording tools capture every window regardless, and a mirrored display, such as a projector or TV, shows everything on your screen.</p>
+        <p>For those there is <strong>Private Mode</strong>, in the menu bar menu, in Settings › General, and in macOS Focus Filters (Pro). It leaves window titles, folders, notes and what agents are working on out of everything Desktag shows, banners and notifications included — and clears any waiting Desktag notifications from Notification Centre the moment it turns on. The names you gave your desktops stay; an unnamed desktop goes by its apps. It turns on by itself while your screen is mirrored, and off when mirroring ends; toggle that with “Private Mode while the screen is mirrored”.</p>
+      </section>
+
+      <section class="prose-section" id="cards" data-support-item>
+        <h2>Hover cards</h2>
+        <p>Rest the pointer on a desktop in the sticker and its card opens: the full name and note, when you were last there, what works there, and what’s open, app by app and folder by folder. Move onto the card and it stays open.</p>
+        <ul>
+          <li><strong>Click an app</strong> to go to its window: Desktag goes to that desktop, brings the window to the front, even from behind other windows, and rings it for a moment.</li>
+          <li><strong>Drag an app</strong> onto another desktop in the sticker to move its windows there.</li>
+          <li><strong>Right-click an app</strong> to bring its windows to the desktop you’re on, or move them to any other.</li>
+        </ul>
+        <p>Moving windows and focusing one exact window need Accessibility access. Without it, Desktag brings the window’s app forward (where that app has no windows on other desktops to take you away) and rings the window. Turn hover cards off in Settings › Sticker.</p>
+      </section>
+
+      <section class="prose-section" id="edge-hiding" data-support-item>
+        <h2>Edge hiding, stepping aside &amp; done banners</h2>
+        <p>Leave the Bar sticker near the top or bottom of the screen, the Stack near either side, or the Canvas near any edge, and it docks there. Once the pointer moves away it slides into the edge, leaving a coloured stripe for each desktop (plus running work lights and attention notches). Point at the stripes to bring it back, or drag the sticker away from the edge to keep it floating. While floating clear of the edges, if your pointer works right beside it, it fades gently and passes clicks through until you move away. Both can be turned off in Settings › Sticker, and both pause automatically while VoiceOver is on.</p>
+        <p>With Pro, while the sticker is tucked into an edge and an agent finishes, fails or waits for your answer on another desktop, a compact done banner slides out beside that desktop’s stripe. Click it to jump straight to that agent’s window, or dismiss it without switching.</p>
+      </section>
+
+      <section class="prose-section" id="canvas" data-support-item>
+        <h2>Spatial Canvas &amp; No-Boundary Canvas</h2>
+        <p>With Pro, Desktag includes two 2D layouts (choose from the sticker’s right-click menu or Settings › Sticker):</p>
+        <ul>
+          <li><strong>Spatial Canvas:</strong> a translucent 2D board where each desktop is a bubble that stays where you drop it. Drop one desktop onto another to form a named coloured group, drag groups whole by their header, drop more desktops into a group where the caret shows, or drag them back out. Right-click the board for New Group, Clean Up (packs neatly into rows, groups first) and Undo / Redo. Every desktop’s right-click menu also has <strong>Group ›</strong> so the canvas works without dragging, including with VoiceOver.</li>
+          <li><strong>No-Boundary Canvas:</strong> every desktop bubble floats independently anywhere on screen with no enclosing board behind or between bubbles, so the rest of your screen stays unobstructed and clickable. Includes magnetic alignment guides while dragging, Undo / Redo, and 7 one-click screen-wide presets (Top Edge, Bottom Edge, Left Edge, Right Edge, Screen Corners, Perimeter Ring and Compact Cluster).</li>
+        </ul>
+        <p>If a Pro trial ends, your Canvas and No-Boundary arrangements and groups stay saved safely on disk while the sticker falls back to the Bar layout.</p>
+      </section>
+
+      <section class="prose-section" id="automation" data-support-item>
+        <h2>Links, Shortcuts, Spotlight, Services, Focus Filters &amp; AppleScript</h2>
+        <ul>
+          <li><strong>Spotlight (Free &amp; Pro):</strong> type any user-named desktop straight into Spotlight (<kbd>⌘Space</kbd>) to jump there. Only names, emoji, numbers and marks you gave are indexed — never window titles or notes.</li>
+          <li><strong>macOS Services (Free &amp; Pro):</strong> select text in any app and choose Services › Desktag › Name This Desktop or Save to Current Desktop Note.</li>
+          <li><strong><code>desktag://</code> links (Pro):</strong> right-click any labelled desktop and choose Copy Link to Desktop, or use <code>desktag://switch?name=Build</code>, <code>desktag://switch?number=2</code>, <code>desktag://back</code>, <code>desktag://panel</code>, and <code>desktag://find</code> (shows a confirmation button before walking desktops).</li>
+          <li><strong>Shortcuts &amp; Siri (Pro):</strong> 13 actions — Switch to Desktop, Go Back to Last Desktop, Get Current Desktop, List Desktops, Move Front Window to Desktop, Find Desktops, Go to Waiting Work, Open Switcher, Set Private Mode, Toggle Private Mode, Show or Hide Sticker, Set Desktop Note, and Save Note on Current Desktop.</li>
+          <li><strong>Focus Filters (Pro):</strong> in System Settings › Focus, add a Desktag Focus Filter to toggle Private Mode, hide the sticker, or silence done banners and notifications automatically for any Focus (such as Presenting or Do Not Disturb).</li>
+          <li><strong>AppleScript &amp; JXA (Pro):</strong> Desktag ships a scripting dictionary (<code>tell application "Desktag" to switch to "Build"</code>; also <code>current desktop</code>, <code>desktops</code>, <code>marks</code>, <code>note</code>, <code>go back</code>, <code>go to waiting work</code>, <code>open switcher</code>, <code>move front window</code>, <code>find desktops</code>, <code>private mode</code>, <code>sticker visible</code>, and <code>set desktop note</code>).</li>
+        </ul>
+      </section>
+
+      <section class="prose-section" id="rearrange" data-support-item>
+        <h2>My desktops keep changing order</h2>
+        <p>That is macOS, which by default reorders desktops by how recently you used them. To stop it, turn off this setting:</p>
+        <p>System Settings › Desktop &amp; Dock › Mission Control › <strong>Automatically rearrange Spaces based on most recent use</strong></p>
+        <p>While Desktag is running, a label stays with its desktop whichever way macOS shuffles them. A fixed order matters after a restart, when Find Desktops puts labels back by position.</p>
+      </section>
+
+      <section class="prose-section" id="wrong-label" data-support-item>
+        <h2>A label is on the wrong desktop</h2>
+        <ul>
+          <li><strong>A tag has an orange dot, or the arrival card asks “Which desktop is this?”</strong> Desktag met a desktop it can’t match to a saved one. Right-click the tag, choose Which Desktop Is This?, and pick the label.</li>
+          <li><strong>A label is still dimmed and you’re standing on its desktop.</strong> Right-click the dimmed tag and choose It’s the Desktop in Front. If that desktop had a label of its own, the two trade places, so nothing is lost.</li>
+          <li><strong>A label is under “Labels without a desktop”.</strong> Go to the desktop it belongs on, open Settings › Desktops, and click Put on Desktop… beside it.</li>
+          <li><strong>Desktag recognised a desktop by its windows and got it wrong.</strong> Right-click its tag and choose This Isn’t “…”, or click “Not …” on the card that says it was recognised. The label is taken off that desktop and kept, and Desktag asks which desktop this one is.</li>
+        </ul>
+      </section>
+
+      <section class="prose-section" id="full-screen" data-support-item>
+        <h2>Full-screen apps</h2>
+        <p>When an app goes full screen, macOS gives it a space of its own, which ends when the app leaves full screen. Desktag shows the app’s name in the sticker and menu bar while you’re there, but can’t name that space or switch to it. Use the app’s own window, the Dock or a swipe to reach it. The sticker stays visible over full-screen apps unless you turn that off in Settings › Sticker.</p>
+      </section>
+
+      <section class="prose-section" id="displays" data-support-item>
+        <h2>More than one display</h2>
+        <p>Desktag is designed to handle several displays, though this has not yet been tested on physical multi-display hardware. With “Displays have separate Spaces” on (System Settings › Desktop &amp; Dock), each display has its own desktops: Desktag finds them again by their windows only, and switching slides. With it off, the displays share one row of desktops and everything works as with one display. When a display connects or disconnects, or the Mac wakes, Desktag waits a few seconds before deciding any desktop went, and a set-aside label returns automatically when its desktop’s windows are seen again. If something is off, please <a href="#contact">write in</a> and describe how your displays are arranged.</p>
+      </section>
+
+      <section class="prose-section" id="where" data-support-item>
+        <h2>Where is Desktag? There’s no Dock icon</h2>
+        <p>Desktag lives in the menu bar, showing the desktop you’re on. If you can’t find it, open Desktag again from Applications or Spotlight and its Settings window appears. While Settings or the Pro window is open, Desktag appears in the Dock and <kbd>⌘Tab</kbd> so you can return to it, then leaves them when closed. If the sticker is hidden, choose Show Sticker in the menu bar menu. If your menu bar is crowded behind the notch, hold <kbd>⌘</kbd> and drag Desktag’s item further right.</p>
+      </section>
+
+      <section class="prose-section" id="earlier" data-support-item>
+        <h2>Putting back an earlier day’s labels</h2>
+        <p>Open Settings › About and choose a day under <strong>Put Back Labels From</strong>. Each automatic backup holds your labels as that day began (up to seven changed days); your settings stay as they are today, and the confirmation banner includes Undo. A label you just deleted can also be restored straight away from its toast banner. If you restore a copy of <code>desktops.json</code> into Desktag’s folder yourself while Desktag is running, it adopts the external file rather than overwriting it.</p>
+      </section>
+
+      <section class="prose-section" id="trial" data-support-item>
+        <h2>What happens when the trial ends?</h2>
+        <p>The 14-day trial ends by itself. Nothing is charged, and there is nothing to cancel. Desktag goes back to Free and keeps everything saved on disk: names beyond the first three, your Canvas and No-Boundary layouts and groups, notes beyond the first and per-desktop shortcuts beyond the first remain safely stored (hidden until you buy Pro); live folder and window-title auto-naming, agents at work, deep search, custom switch transitions, and Shortcuts / Focus Filters / links / scripting pause. Three names, colours and marks on every desktop, one note, one shortcut, Bar/Stack/Pill layouts, hover cards, Spotlight, Services and Private Mode stay free for good. Setting the Mac’s clock back doesn’t lengthen the trial; the trial can be started once per Apple Account, and reinstalling doesn’t restart it.</p>
+      </section>
+
+      <section class="prose-section" id="restore" data-support-item>
+        <h2>Restoring a purchase</h2>
+        <p>Open Settings › Desktag Pro, or choose Unlock Desktag Pro… (Try Desktag Pro Free… before a trial) in the menu bar menu, and click <strong>Restore Purchases</strong>. Your Mac must be signed in to the App Store with the Apple Account that bought Pro, or an account in the same Family Sharing group. Pro is a one-time purchase, so restoring never charges you again.</p>
+      </section>
+
+      <section class="prose-section" id="refunds" data-support-item>
+        <h2>Refunds</h2>
+        <p>Pro is bought through Apple’s App Store, so refunds are Apple’s to decide; the developer cannot issue one directly. Go to <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>, sign in with the Apple Account that made the purchase, and request a refund there. This doesn’t affect any rights you have under your country’s consumer law.</p>
+      </section>
+
+      <section class="prose-section" id="uninstall" data-support-item>
+        <h2>Uninstalling &amp; where your data is</h2>
+        <ol>
+          <li>Choose Quit Desktag in its menu bar menu.</li>
+          <li>Move Desktag from the Applications folder to the Bin (Trash).</li>
+          <li>To remove your names, notes and settings as well, choose Go › Go to Folder… in Finder, paste <code>~/Library/Containers/dev.deskmate.desktag</code>, and delete that folder if it is still there.</li>
+          <li>If you allowed Accessibility or Screen Recording access, remove Desktag from those lists in System Settings › Privacy &amp; Security.</li>
+        </ol>
+        <p>Your labels live in this single file, which you can back up anywhere before uninstalling:</p>
+        <code class="code-path">~/Library/Containers/dev.deskmate.desktag/Data/Library/Application Support/Desktag/desktops.json</code>
+        <p>Beside it sit <code>desktops.json.bak</code> (the previous save) and a <code>Backups</code> folder holding up to seven daily copies. Settings › About › Show Data Folder opens the folder directly. A Pro purchase belongs to your Apple Account, not the deleted copy: reinstall Desktag and <a href="#restore">restore it</a>.</p>
+      </section>
+
+      <section class="prose-section" id="contact" data-support-item>
+        <h2>Contact &amp; Copy Diagnostics</h2>
+        <p>Write to <a href="mailto:SUPPORT_EMAIL">SUPPORT_EMAIL</a>. It helps to mention your macOS version, how many desktops and displays you use, and what Desktag showed when it went wrong.</p>
+        <p><strong>Settings › About › Copy Diagnostics</strong> puts a short report on your clipboard to paste into your email: Desktag’s version, its settings, counts such as how many desktops it found, and its journal of recent decisions, including whether the previous run ended unexpectedly. It never contains a desktop name, a note, a window title or an app name.</p>
+      </section>
+
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <a class="brand" href="index.html">
+        <img src="assets/icon.png" alt="" width="28" height="28">
+        <span>Desktag</span>
+      </a>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="privacy.html">Privacy policy</a></li>
+        <li><a href="mailto:SUPPORT_EMAIL">SUPPORT_EMAIL</a></li>
+      </ul>
+    </div>
+    <p class="footer-legal">
+      Mac, macOS, Mission Control, Spotlight, Shortcuts, App Store and Mac App Store are trademarks or service marks of Apple Inc. Desktag is an independent app and is not affiliated with Apple.
+    </p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
